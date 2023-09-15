@@ -1,0 +1,31 @@
+main {
+  height: calc(100vh - 130px);
+  padding-top: 3rem;
+  padding-left: 6rem;
+  background-color: #282d35;
+  position: relative;
+  background-image: url(../../assets/reactjs-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 60%;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+  color: #ffffff;
+}
+
+ul {
+  padding-left: 3rem;
+}
+
+li {
+  padding: 16px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+li::marker {
+  font-size: 2rem;
+  color: #61dafb;
+}
